@@ -1,0 +1,32 @@
+.background {
+    -fx-background-image: url("../../images/background.jpeg");
+    -fx-background-size: cover, auto;
+}
+
+
+.labelWelcome {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #475ac4;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+
+.labelName {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #475ac4;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.menu-bar {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.menu-item {
+    -fx-text-fill: white;
+}
+
+.menu-item:hover {
+    -fx-background-color: #666;
+}

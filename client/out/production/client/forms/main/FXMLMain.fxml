@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" styleClass="background" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.main.FXMLMainController">
+    <children>
+        <MenuBar fx:id="MenuBarMainManu" prefHeight="27.0" prefWidth="700.0">
+            <menus>
+                <Menu fx:id="mnGame" mnemonicParsing="false" text="Game ">
+  
+                    <items>
+  
+                        <MenuItem fx:id="mnItmPlayGame" mnemonicParsing="false" onAction="#playGame" text="Play game" />  
+                    </items>
+  
+                </Menu>           
+                <Menu fx:id="mnInfo" mnemonicParsing="false" text="Info ">
+  
+                    <items>
+  
+                        <MenuItem fx:id="mnItmGameRules" mnemonicParsing="false" onAction="#gameRules" text="Game rules" />  
+                    </items>
+  
+                </Menu>
+                <Menu fx:id="mnUser" mnemonicParsing="false" text="User ">
+
+                    <items>
+
+                        <MenuItem fx:id="mnItemUser" mnemonicParsing="false" onAction="#user" text="Info" />
+                    </items>
+
+                </Menu>
+            </menus>
+        </MenuBar>
+        <Label fx:id="lblWelcome" alignment="CENTER" layoutX="50.0" layoutY="331.0" prefHeight="17.0" prefWidth="600.0" styleClass="labelWelcome" stylesheets="@../css/main.css" text="Welcome">
+        </Label>
+        <Label fx:id="lblPlayer" alignment="CENTER" layoutX="50.0" layoutY="389.0" prefHeight="17.0" prefWidth="600.0" styleClass="labelName" stylesheets="@../css/main.css">
+        </Label>
+    </children>
+</AnchorPane>

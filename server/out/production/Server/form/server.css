@@ -1,0 +1,19 @@
+.background {
+    -fx-background-image: url("../../server/form/images/background.jpeg");
+    -fx-background-size: cover, auto;
+}
+
+
+.button {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-background-color: white;
+    -fx-background-radius: 30;
+    -fx-padding: 3 8 3 8;
+}
+
+.button:hover {
+    -fx-background-color: yellow;
+}

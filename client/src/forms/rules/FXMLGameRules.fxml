@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" styleClass="background" stylesheets="@../css/rules.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forms.rules.FXMLGameRulesController">
+   <children>
+      <TextArea fx:id="txtRules" editable="false" layoutX="14.0" layoutY="69.0" prefHeight="338.0" prefWidth="536.0" text="The objective of the game is to clear a rectangular board containing hidden &quot;mines&quot; or bombs &#10;without detonating any of them. &#10;The board is divided into a grid of cells, and each cell may contain a mine or be empty.&#10;&#10;GAME RULES&#10;&#10;The game begins with a grid of cells, some of which contain mines. &#10;The player does not know the locations of the mines initially.&#10;The player can click on any cell on the grid to reveal its content. &#10;If the clicked cell contains a mine, the game ends in failure. &#10;If the clicked cell is empty, it reveals a number indicating the number of adjacent cells &#10;containing mines. &#10;If there are no adjacent mines, the surrounding cells are also automatically revealed.&#10;&#10;If the player suspects that a certain cell contains a mine, they can flag it to mark it as potentially &#10;dangerous. This helps the player keep track of which cells they believe contain mines.&#10;&#10;The player wins the game when all non-mine cells on the board are revealed. &#10;This means that the player has successfully cleared the board without detonating any mines." />
+      <Button fx:id="btnBack" layoutX="14.0" layoutY="26.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="138.0" stylesheets="@../css/rules.css" text="Go back to main menu" />
+   </children>
+</AnchorPane>
